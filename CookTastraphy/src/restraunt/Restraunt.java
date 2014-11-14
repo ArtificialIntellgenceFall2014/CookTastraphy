@@ -1,4 +1,7 @@
 package restraunt;
+import javax.swing.*;
+import java.awt.*;
+
 import graphics.*;
 
 public class Restraunt {
@@ -9,7 +12,7 @@ public class Restraunt {
 	public static void main(String [ ] args)
 	{
 	    RestrauntGameBoard theBoard = new RestrauntGameBoard();
-	    theBoard.frame.setVisible(true);
+	    theBoard.addText("Something Here");
 	}
 	
 }
