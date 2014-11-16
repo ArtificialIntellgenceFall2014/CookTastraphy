@@ -11,8 +11,15 @@ public class Restraunt {
 	
 	public static void main(String [ ] args)
 	{
+		Pantry thePantry = new Pantry();
+		Chef theChef = new Chef();
+		Runner theRunner = new Runner();
 	    RestrauntGameBoard theBoard = new RestrauntGameBoard();
-	    theBoard.addText("Something Here");
-	}
+	    
+	    
+	    theBoard.stockPantry(thePantry.allItems);
+	    
+	    
 	
+	}
 }

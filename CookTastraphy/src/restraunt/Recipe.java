@@ -1,5 +1,4 @@
 package restraunt;
-import java.awt.List;
 import java.util.LinkedList;
 
 public class Recipe {
