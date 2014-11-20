@@ -5,13 +5,6 @@ import java.util.Random;
 import java.lang.Math;
 import lejos.*;
 
-/**
- * This code completes challenges 1 to 3 of the robot line follower challenge.
- * All code specifics are detailed below, line by line.
- * 
- * This code draws from the sample code provided by Lawrie Griffiths for a crude
- * line follower. All modifications made by Kyle McCarty and Thomas Trebat.
- */
 public class FollowLine 
 {
 	// Sets the threshold at which the robot considers something under its
